@@ -22,6 +22,8 @@ public class Customer
 
     public string? TaxNumber { get; set; }
 
+    public string? address2 { get; set; }
+
     public bool IsActive { get; set; } = true;
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
